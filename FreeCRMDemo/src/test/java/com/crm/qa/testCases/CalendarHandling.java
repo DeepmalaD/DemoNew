@@ -66,6 +66,7 @@ public class CalendarHandling {
 					System.out.println("Please enter a correct date value");
 					flag = false;
 					break;
+					
 				}
 				System.out.println(dayVal);
 				if(dayVal.equals(day)){
@@ -76,6 +77,7 @@ public class CalendarHandling {
 			}
 			if(flag){
 				break;
+				
 			}
 
 		}

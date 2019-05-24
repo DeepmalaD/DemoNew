@@ -20,6 +20,7 @@ public class LandingPageTest extends TestBase{
 	public void SetUp() {
 		initialization();
 		landingpage=new LandingPage();
+		System.out.println("hello");
 
 	}
 	
