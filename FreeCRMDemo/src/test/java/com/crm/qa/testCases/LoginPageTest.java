@@ -3,6 +3,7 @@ package com.crm.qa.testCases;
 
 import java.util.Properties;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -10,7 +11,6 @@ import org.testng.annotations.Test;
 import com.crm.qa.base.TestBase;
 import com.crm.qa.pages.LoginPage;
 
-import junit.framework.Assert;
 
 public class LoginPageTest extends TestBase {
 	
@@ -36,7 +36,7 @@ public class LoginPageTest extends TestBase {
 	public  void loginpagetitle() {
 		System.out.println("as");
 		String title=logoinpage.ValidateLoginPageTitle();
-        Assert.assertEquals("Login or Register", title);		
+        Assert.assertEquals("Login or Register", title);
 	}
 	
 	@Test(priority=2)
