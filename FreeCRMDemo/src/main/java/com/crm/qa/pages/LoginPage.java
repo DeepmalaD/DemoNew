@@ -28,10 +28,6 @@ public class LoginPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	}
 	
-	
-
-	
-	
 	//Actions
 	public String ValidateLoginPageTitle() {
 		String Title=driver.getTitle();

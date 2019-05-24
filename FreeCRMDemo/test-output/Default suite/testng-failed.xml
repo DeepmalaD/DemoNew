@@ -3,11 +3,13 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testCases.GoibiboCalendar">
+      <class name="com.crm.qa.testCases.LoginPageTest">
         <methods>
-          <include name="calendarTest"/>
+          <include name="CRMLogin"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.crm.qa.testCases.GoibiboCalendar -->
+      </class> <!-- com.crm.qa.testCases.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
