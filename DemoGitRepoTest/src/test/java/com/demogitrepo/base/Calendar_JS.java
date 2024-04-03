@@ -21,6 +21,7 @@ public class Calendar_JS {
 	public void calendarTest() throws InterruptedException {
 	System.setProperty("webdriver.chrome.driver", "F:\\Drivers_1\\chromedriver.exe");
 	driver=new ChromeDriver();
+	//testing commit from github desktop
 	
 	//System.setProperty("webdriver.gecko.driver", "F:\\Drivers_1\\geckodriver.exe");
 	//driver=new FirefoxDriver();
